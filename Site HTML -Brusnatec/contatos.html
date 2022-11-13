@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Brusnatec</title>
+</head>
+<body>
+
+     <div class="menu">
+       <ul>
+           <li><a href="index.html">Home</a></li> 
+           <li><a href="produtos.html">Produtos</a></li>
+           <li><a href="sobre.html">Sobre nós</a></li>
+           <li><a href="contatos.html">Contatos</a></li>   
+           <li><a href="tabela.html">Renda</a></li>   
+       </ul>	
+
+
+     </div>
+
+     <h1>CONTATOS:</h1>
+
+     <div class="contatos">
+     <ul>
+     </ul>
+     </div>
+
+     <div class="imagens4">
+        <figure>
+            <img src="Imagens/Cartão de visita1.png">
+               <figcaption>
+               </figcaption>
+        </figure>
+        <div class="imagens4">
+            <figure>
+                <img src="Imagens/Cartão de visita2.png">
+                   <figcaption>
+                   </figcaption>
+            </figure>
+
+
+    </div>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
+      <input type="hidden" name="form-name" value="contact">
+
+      
+      
+</body>
+</html>

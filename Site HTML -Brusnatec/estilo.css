@@ -1,0 +1,133 @@
+body{
+	background-color: rgb(159, 208, 231);
+
+
+}
+
+.menu ul{
+ padding: 2px;
+ margin:  2px;
+ background-color: lightgray;
+ list-style: none;
+
+}
+.menu ul li{
+	display: inline;
+     text-align: center;
+	font: 20px helvetica;
+}
+.menu ul li a{
+     padding: 2px 10px;
+     display: inline-block;
+
+     background-color: #edede;
+     color: black;
+     text-decoration: none;
+     border-bottom: 2px solid #edede;
+}
+.menu ul li a:hover{
+     background-color: #ff8f00;
+}
+
+h1{
+     text-align: center;
+     font: 35px verdana;
+     color: #ff8f00;
+}
+
+h2{
+     text-align: center;
+     font: 30px verdana;
+     color: #ff8f00;
+}
+
+h3{
+    text-align: center;
+    font: 25px verdana;
+    color: darkblue;
+}
+
+
+.imagens img{
+     display: block; 
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px;
+     height: 370px;
+     border: solid thin black;
+     border-radius: 15px;
+}    
+
+.imagens figcaption{
+     text-align: center;
+     font: 18px verdana;
+}
+
+.imagens2 img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 400px;
+     height: 400px;
+     border: solid thin black;
+     border-radius: 15px;
+}
+
+.imagens2 figcaption{
+     text-align: center;
+     font: 18px verdana;
+}
+
+.imagens3 img{
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     width: 200px;
+     height: 400px;
+     border: solid thin black;
+     border-radius: 10px;
+}
+
+.imagens3 figcaption{
+     text-align: center;
+     font: 18px verdana;
+}
+
+p{
+     text-align: center;
+     font: 25px verdana;
+}
+
+.contatos ul{
+     padding: 10px;
+     background-color: lightgray;
+     list-style: none;
+     text-align: center;
+     font: 30px verdana;
+     
+}
+
+.contatos ul li{
+     padding: 45px;
+}
+
+.imagens4 img{
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     width: 800px;
+     height: 400px;
+     border: solid thin rgb(255, 252, 252);
+     border-radius: 10px;
+}
+
+.imagens5 img{
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     width: 550px;
+     height: 800px;
+     border: solid thin rgb(255, 252, 252);
+     border-radius: 10px;
+
+}
